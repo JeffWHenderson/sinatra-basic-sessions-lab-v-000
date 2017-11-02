@@ -11,8 +11,8 @@ class App < Sinatra::Base
   end
 
   post '/checkout' do
-    "IN CHECKOUT"
     @cart = params[:item]
+    erb :'cart'
   end
 
     # get '/hey' do
