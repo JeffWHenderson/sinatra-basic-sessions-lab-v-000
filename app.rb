@@ -11,7 +11,7 @@ class App < Sinatra::Base
   end
 
   post '/checkout' do
-    @cart = params[:item]
+    @cart = params
     erb :'cart'
   end
 
