@@ -15,9 +15,9 @@ class App < Sinatra::Base
     erb :'cart'
   end
 
-    # get '/hey' do
-    #   @session = session
-    # end
+    get '/checkout' do
+      @session = session
+    end
 
     # get '/hey' do
     #   session["name"] = "Victoria"
