@@ -14,7 +14,7 @@ class App < Sinatra::Base
   #   @session = session
   # end
 
-  # get '/hey' do 
+  # get '/hey' do
   #   session["name"] = "Victoria"
   #   @session = session
   # end
