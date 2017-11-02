@@ -12,7 +12,7 @@ class App < Sinatra::Base
 
   post '/checkout'
     "IN CHECKOUT"
-    # params[:data]
+    # params[:item]
   end
 
   # get '/hey' do
