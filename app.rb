@@ -15,4 +15,12 @@ class App < Sinatra::Base
     # params[:item]
   end
 
+    # get '/hey' do
+    #   @session = session
+    # end
+
+    # get '/hey' do
+    #   session["name"] = "Victoria"
+    #   @session = session
+    # end
 end
