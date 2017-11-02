@@ -12,12 +12,13 @@ class App < Sinatra::Base
 
   post '/checkout' do
     @cart = params
+    session['item'] = params
     erb :'cart'
   end
 
-    get '/checkout' do
-      @session = session
-    end
+    # get '/checkout' do
+    #   session['item'] =
+    # end
 
     # get '/hey' do
     #   session["name"] = "Victoria"
